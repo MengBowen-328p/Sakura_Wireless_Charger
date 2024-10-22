@@ -526,7 +526,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c346f5d7-1ea4-4160-bde5-7ee0d54f5507")
@@ -538,7 +538,7 @@
 			)
 		)
 		(property "Value" "3K3"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6920ce05-cc50-4178-9653-24857ea582d6")
@@ -934,7 +934,7 @@
 		(descr "wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
 		(property "Reference" "TP7"
-			(at 1.6 2.4 360)
+			(at 1.6 2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "91b382b8-96a0-4473-8b69-2af2a944f89c")
@@ -946,7 +946,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 1 -2.1 360)
+			(at 1 -2.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f799cd71-74ce-4a06-9597-abb66a6a6e23")
@@ -1132,7 +1132,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "729d34fe-065b-452b-908f-904d2671c2c3")
@@ -1144,7 +1144,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9bd554a-9545-4918-9edf-94e855ca8720")
@@ -1338,6 +1338,7 @@
 		(property "Reference" "Q2"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4042e97e-2f06-4cdd-a063-6c89de5f32d6")
 			(effects
 				(font
@@ -1935,7 +1936,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0bf76f09-c91e-4c84-9689-9d945ebcd2ae")
@@ -1947,7 +1948,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "421917dc-2556-453c-bb82-67b97f318be8")
@@ -2139,7 +2140,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "94ff2900-7f44-4759-bef8-0ba0431f38d8")
@@ -2151,7 +2152,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8bf2c82c-ca12-471e-b231-b61d66b9a8b5")
@@ -2938,7 +2939,7 @@
 		(descr "wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
 		(property "Reference" "TP5"
-			(at 1.6 2.4 360)
+			(at 1.6 2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "23cf15e1-aca1-4e03-9fe3-b949c24dcd2b")
@@ -2950,7 +2951,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 1 -2.1 360)
+			(at 1 -2.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39c1ebdd-f643-4784-8b29-26dd18f494c1")
@@ -3138,6 +3139,7 @@
 		(property "Reference" "Q1"
 			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "27efa903-d05c-46e1-9e2e-f3dcb99694aa")
 			(effects
 				(font
@@ -3941,7 +3943,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eac83ecf-288d-478d-a3be-53f3bc3cbc8a")
@@ -3953,7 +3955,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4d6ffa3-4a28-4266-bd31-64841047bf3f")
@@ -4145,7 +4147,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c85432e3-02f2-4a10-a961-283033be6fee")
@@ -4157,7 +4159,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "675d8aa6-999b-4ace-bda0-bcf02eeb70c4")
@@ -4349,7 +4351,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1de2fd58-4513-45ab-975f-15ad7050b101")
@@ -4361,7 +4363,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "087338c0-1909-4776-92cf-0cacb42bfda9")
@@ -4553,7 +4555,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4d7c009b-052d-44a3-bdef-069f0d4729e6")
@@ -4565,7 +4567,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2a19cdc-c156-4767-9557-9bd4a877e9d0")
@@ -4963,6 +4965,7 @@
 		(property "Reference" "Z1"
 			(at 0 0 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9b5b4e02-35f6-43a5-a1ba-deb3e2471333")
 			(effects
 				(font
@@ -5508,7 +5511,7 @@
 		(descr "wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
 		(property "Reference" "TP4"
-			(at 1.6 2.4 360)
+			(at 1.6 2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "edee0f95-703b-403b-b5e0-314191a232e1")
@@ -5520,7 +5523,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 1 -2.1 360)
+			(at 1 -2.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ac9a2f9-98d7-476c-b288-fe32b615842a")
@@ -5706,7 +5709,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "00f001b4-7b1d-4e49-a978-4b57922f473c")
@@ -5718,7 +5721,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0855379d-840a-4077-8822-2ef42f948dfe")
@@ -5910,7 +5913,7 @@
 		(descr "wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
 		(property "Reference" "TP1"
-			(at 1.6 2.4 360)
+			(at 1.6 2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f659539d-4dbf-4b61-94c2-da8ad55bcc56")
@@ -5922,7 +5925,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 1 -2.1 360)
+			(at 1 -2.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6bf1210-fad5-457c-ab46-c4b4c8c19005")
@@ -6108,7 +6111,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "85272216-9c34-471f-8505-7cbf10b09e29")
@@ -6120,7 +6123,7 @@
 			)
 		)
 		(property "Value" "3K3"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8bcede50-1ad6-41f6-b3fd-e930fda1123b")
@@ -6991,7 +6994,7 @@
 		(descr "wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
 		(property "Reference" "TP6"
-			(at 1.6 2.4 360)
+			(at 1.6 2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "079cf044-3ceb-4c0d-8c2c-2be748f26332")
@@ -7003,7 +7006,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 1 -2.1 360)
+			(at 1 -2.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fadf063b-0edb-4f4a-9bc4-68f94d4c5fd8")
@@ -7189,7 +7192,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d226e119-c386-44aa-a975-faba00f8240b")
@@ -7201,7 +7204,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e96e10f2-5f3b-4c8d-92c4-00794cec5b1e")
@@ -8407,7 +8410,7 @@
 		(descr "wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
 		(property "Reference" "TP3"
-			(at 1.6 2.4 360)
+			(at 1.6 2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "34d10a73-3e3f-4992-88b4-002100795e6f")
@@ -8419,7 +8422,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 1 -2.1 360)
+			(at 1 -2.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e3befda-0840-4fbd-acd7-3614a010d646")
@@ -8605,7 +8608,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4e3e04cc-0011-44e7-afb7-6cb2c21a8900")
@@ -8617,7 +8620,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b623e14c-a0cc-433b-ac7c-dc1384523213")
@@ -8809,7 +8812,7 @@
 		(descr "wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm")
 		(tags "test point wire loop")
 		(property "Reference" "TP2"
-			(at 1.6 2.4 360)
+			(at 1.6 2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "552da18b-d83e-488d-b8c1-fccf97007e58")
@@ -8821,7 +8824,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 1 -2.1 360)
+			(at 1 -2.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14841f99-c507-41f0-a654-2d06e239bb90")
@@ -9685,7 +9688,7 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L2"
-			(at 0 -1.25 360)
+			(at 0 -1.25 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "689479df-ee78-4bd4-808b-9e04523460db")
@@ -9697,7 +9700,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at -0.025 1.2 360)
+			(at -0.025 1.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fce67bd8-6d43-4a10-9c7c-58f4a00e7c8e")
